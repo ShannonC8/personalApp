@@ -8,26 +8,25 @@
 }
 
 :root {
-	--mainColor: #ffdcfd;
+	--mainColor: #ffdceb;
 	--mainColorLight: #feeeff;
-	--secondaryColor: #c671ff;
-	--textColor: #ff40d6;
+	--secondaryColor: #a055b4;
+	--textColor: #ff1c86;
 }
 
 header {
 	display: flex;
 	align-items: center;
 	justify-content: space-between;
-	height: 80px;
+	height: 5vw;
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
 }
 
-.links {
-    display: flex;
-    align-items: center;
-    margin-left: auto; /* Align to the right */
+
+nav {
+    margin-left: auto; 
 }
 
 .name-container {
@@ -36,7 +35,7 @@ header {
 }
 
 .name-container h3 {
-    padding-left: 10px; 
+    padding-left: 1vw; 
     color: var(--textColor);
     text-decoration: none; 
 }
@@ -45,18 +44,25 @@ header {
     color: var(--secondaryColor); 
 }
 
-nav a {
+nav button {
+	background: none;
+	border: none;
+	padding: 0;
+	font-size: 1.2vw;
 	margin: 0 1rem;
+	display: inline-block;
+  	transition: color 0.3s ease;
 	color: var(--textColor);
 	text-decoration: none;
 }
 
-nav a:hover {
+nav button:hover {
 	color: var(--secondaryColor);
 }
 
 header .nav-btn {
-	padding: 5px;
+	padding: 1vw;
+	
 	cursor: pointer;
 	background: transparent;
 	border: none;
@@ -66,8 +72,6 @@ header .nav-btn {
 	opacity: 0;
 	font-size: 1.8rem;
 }
-
-
   
 @media only screen and (max-width: 1024px) {
 	header .nav-btn {
