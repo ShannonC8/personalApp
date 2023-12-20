@@ -1,0 +1,21 @@
+section {
+    padding-top:5vw;
+}
+
+/* styles.css */
+
+.About {
+    height: 500px;
+    background-color: rgb(255, 167, 190); /* Change this to your desired color */
+  }
+  
+  .Projects {
+    height: 500px;
+    background-color: rgb(254, 255, 192); /* Change this to your desired color */
+  }
+  
+  .Contact {
+    height: 500px;
+    background-color: lightcoral; /* Change this to your desired color */
+  }
+  

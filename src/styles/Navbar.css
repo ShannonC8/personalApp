@@ -1,6 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300;400;700&display=swap");
 
 * {
+	
 	padding: 0;
 	margin: 0;
 	box-sizing: border-box;
@@ -22,6 +23,9 @@ header {
 	padding: 0 2rem;
 	background-color: var(--mainColor);
 	color: var(--textColor);
+	width: 100%;
+	position: fixed;
+	z-index: 1000; /* Ensure it's above other elements */
 }
 
 
