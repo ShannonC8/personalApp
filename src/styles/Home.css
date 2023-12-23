@@ -5,13 +5,13 @@ section {
 /* styles.css */
 
 .About {
-    height: 500px;
+    height: 1000px;
     background-color: rgb(255, 167, 190); /* Change this to your desired color */
   }
   
   .Projects {
     height: 500px;
-    background-color: rgb(254, 255, 192); /* Change this to your desired color */
+    background-color: rgb(255, 255, 235); /* Change this to your desired color */
   }
   
   .Contact {

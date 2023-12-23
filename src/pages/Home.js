@@ -1,5 +1,6 @@
 import React, { useRef } from 'react';
 import '../styles/Home.css';
+import Skills from '../components/Skills';
 function Home({ AboutRef, ProjectsRef, ContactRef }) {
 
   return (
@@ -8,7 +9,7 @@ function Home({ AboutRef, ProjectsRef, ContactRef }) {
         Section 1
       </section>
       <section ref = {ProjectsRef} id="Projects" className="Projects" >
-        Section 2
+        <Skills/>
       </section>
       <section ref = {ContactRef} id="Contact" className="Contact" >
         Section 3
