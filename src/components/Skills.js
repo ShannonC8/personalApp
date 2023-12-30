@@ -6,10 +6,10 @@ function Skills () {
    return (    
        <div className="container">
            <div className="column">
-                <Skill skillName="Java" percent={90}/>
-                <Skill skillName="Poop" percent={20}/>
-                <Skill skillName="Poop" percent={20}/>
-                <Skill skillName="Poop" percent={20}/>
+                <Skill skillName="Java" percent={80}/>
+                <Skill skillName="C" percent={70}/>
+                <Skill skillName="Python" percent={80}/>
+                <Skill skillName="Javascript" percent={50}/>
             </div>
             <div className="column">
                 <Skill skillName="Poop" percent={20}/>

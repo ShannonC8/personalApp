@@ -2,20 +2,30 @@ section {
     padding-top:5vw;
 }
 
-/* styles.css */
+
+.Home {
+  padding-top: 50vh;
+  background-image: linear-gradient(to bottom, #fff3f6, #f2c7dc, #9f7ec6); 
+}
+
 
 .About {
     height: 1000px;
-    background-color: rgb(255, 167, 190); /* Change this to your desired color */
-  }
-  
-  .Projects {
+    background-color: #9073e2;
+}
+
+.Skills {
     height: 500px;
-    background-color: rgb(255, 255, 235); /* Change this to your desired color */
-  }
-  
-  .Contact {
+    background-color: rgb(255, 255, 235); 
+}
+
+.Projects {
     height: 500px;
-    background-color: lightcoral; /* Change this to your desired color */
-  }
+    background-color: rgb(179, 160, 255); 
+}
+  
+.Contact {
+    height: 200px;
+    background-color: lightcoral; 
+}
   

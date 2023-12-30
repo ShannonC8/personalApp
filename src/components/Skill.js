@@ -23,7 +23,7 @@ function Skill({ skillName, percent }) {
 
     const skillStyle = {
         width: `${percent}%`,
-        animationDelay: '0.2s' // Adjust the multiplier as needed
+        animationDelay: '0.1s' // Adjust the multiplier as needed
     };
 
     return (

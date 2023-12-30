@@ -16,6 +16,10 @@ function Navbar({ onScrollToSection }) {
         showNavbar();
         onScrollToSection('ProjectsRef')
     }
+    const scrollSkills = () => {
+        showNavbar();
+        onScrollToSection('SkillsRef')
+    }
     const scrollContact = () => {
         showNavbar();
         onScrollToSection('ContactRef')
@@ -27,9 +31,16 @@ function Navbar({ onScrollToSection }) {
 		);
 	};
 
+    const scrollToTop = () => {
+        window.scrollTo({
+          top: 0,
+          behavior: 'smooth',
+        });
+      };
+
 	return (
 		<header>
-            <Link to="/" style={{ textDecoration: 'none' }}>
+            <Link to="/" style={{ textDecoration: 'none' }} onClick={scrollToTop}>
                 <div className="name-container">
                 <img
                     src={heartImg}
@@ -41,6 +52,7 @@ function Navbar({ onScrollToSection }) {
             </Link>
 			<nav ref={navRef} className="links">
 				<button onClick={scrollAbout}>About me </button>
+                <button onClick={scrollSkills}>Skills</button>
 				<button onClick={scrollProjects}>Projects</button>
 				<button onClick={scrollContact}>Contact</button>
 				<button className="nav-btn nav-close-btn" onClick={showNavbar}>
