@@ -1,5 +1,5 @@
 .animation, .animation_layer {
-      height: 1000px;
+      height: 160%;
   }
   
   h2 {
@@ -18,14 +18,24 @@
   
   .animation_layer {
       background-position: bottom center;
-      background-size: auto 1038px;
       background-repeat: repeat-x;
       width: 100%;
       position: absolute;
+      background-size: cover;
   }
   .animation_layer.parallax {
       position: fixed;
   }
+
+#firstLayer,
+#secondLayer,
+#thirdLayer,
+#fourthLayer,
+#backGroundLayer {
+    background-repeat: no-repeat; /* Prevent image repetition */
+    background-size: cover; /* or background-size: contain; */
+    background-position: center center; /* Center the background image */
+}
   
   #firstLayer {
     background-image: url(../assets/firstLayer.png);
