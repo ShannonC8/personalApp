@@ -1,0 +1,32 @@
+.constellation-container {
+    position: relative;
+      flex: 1; /* Grow to take up remaining space */
+  
+  }
+  
+  .star {
+    position: absolute;
+    font-size: 3vw;
+    cursor: pointer;
+    z-index:100;
+  }
+  
+  .tooltip {
+    position: absolute;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    padding: 1vh;
+    z-index: 101;
+  }
+  
+  .line-item line {
+    position: absolute;
+    z-index: 99;
+    
+  }
+
+  .mini-title {
+    font-size: 1.5vw; /* Adjust the font size as needed */
+  }
+
+  

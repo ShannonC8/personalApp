@@ -4,7 +4,7 @@ import Skill from './Skill';
 
 function Skills () {
    return (    
-       <div className="container">
+       <div className="container" style={{ paddingBottom: '4vw' }}>
            <div className="column">
                 <Skill skillName="Java" percent={80}/>
                 <Skill skillName="C" percent={70}/>
@@ -18,6 +18,7 @@ function Skills () {
                 <Skill skillName="Poop" percent={20}/>
             </div>
        </div>
+       
    )
 }
 

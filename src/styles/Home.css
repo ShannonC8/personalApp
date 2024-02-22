@@ -8,24 +8,66 @@ section {
   background-image: linear-gradient(to bottom, #fff3f6, #f2c7dc, #9f7ec6); 
 }
 
-
 .About {
-    height: 1000px;
+  
     background-color: #9073e2;
+    overflow: hidden;
+    display:flex;
 }
 
+.About table { 
+    width: 100%; 
+    border-collapse: collapse; 
+  }
+  
+  .About td { 
+    vertical-align: top;
+    padding: 3vw; 
+    text-align: center; 
+    box-sizing: border-box;
+  }
+  
+  /* Small-screen responsive styles */
+  @media only screen and (max-width: 820px) {
+    .About table, .About thead, .About tbody, .About th, .About td, .About tr { 
+      display: block; 
+    }
+    
+    .About thead tr { 
+      position: absolute;
+      top: -9999px;
+      left: -9999px;
+    }
+    
+    .About td { 
+      border: none;
+      position: relative;
+      padding-left: 10%;
+      vertical-align: top;
+      padding-right: 10%;  
+    }
+    
+    .About td:before { 
+      position: absolute;
+      top: 6px;
+      left: 6px;
+      width: 45%; 
+      padding-right: 10px; 
+      white-space: nowrap;
+    }
+    
+  }
+  
 .Skills {
-    height: 500px;
     background-color: rgb(255, 255, 235); 
 }
 
 .Projects {
-    height: 500px;
+    height: 100vh;
     background-color: rgb(179, 160, 255); 
 }
   
 .Contact {
-    height: 200px;
+    height: 20vh;
     background-color: lightcoral; 
 }
-  

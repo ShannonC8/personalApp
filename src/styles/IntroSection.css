@@ -2,6 +2,14 @@
       height: 1000px;
   }
   
+  h2 {
+    font-size: 9vh;
+    font-family: cursive;
+    color: #a468ff;
+    text-shadow: 0.5vh 0.5vh 1vh rgba(0, 0, 0, 0.3);
+    padding: 2vh;
+  } 
+
   .animation {
     display: block;
       position: relative;
