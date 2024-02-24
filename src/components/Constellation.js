@@ -68,7 +68,7 @@ const Constellation = () => {
       </svg>
   
       {hoveredExperience && (
-        <div className="tooltip" style={{ left: hoveredExperience.position.x - (window.outerWidth / 1), top: hoveredExperience.position.y + (window.outerWidth/150) }}>
+        <div className="tooltip" style={{ left: hoveredExperience.position.x - (window.outerWidth / 10), top: hoveredExperience.position.y + (window.outerWidth/30) }}>
           <h3>{hoveredExperience.title}</h3>
           <p>{hoveredExperience.description}</p>
         </div>
